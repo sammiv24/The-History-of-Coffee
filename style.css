@@ -1,0 +1,596 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display:none;
+  }
+
+.wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.content {
+    width: 11180px;
+    height: 100vh;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.background {
+    position: absolute;
+    width: 11180px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+
+#sky {
+    position: absolute;
+    width: 11180px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: #98CDE9;
+}
+
+#water {
+    position: absolute;
+    width: 9540px;
+    height: 150px;
+    left: 0px;
+    bottom: 0px;
+    background: #335CC6;
+}
+
+.foreground {
+    display: flex;
+    position: absolute;
+    width: 10880px;
+    height: 100vh;
+    left: 300px;
+    top: 0px;
+}
+
+.foreground > .ethiopia {
+    position: absolute;
+    width: 1440px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+
+#ethiopia-land {
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    left: 0px;
+    bottom: 0px;
+}
+
+#ethiopia-grass {
+    position: absolute;
+    width: 1440px;
+    height: 50px;
+    left: 0px;
+    bottom: 100px;
+}
+
+#ethiopia-mountain {
+    position: absolute;
+    width: 1440px;
+    height: 296px;
+    left: 0px;
+    bottom: 150px;
+}
+
+#ethiopia-coffee1 {
+    position: absolute;
+    width: 33px;
+    height: 88px;
+    left: 561px;
+    bottom: 150px;
+}
+
+#ethiopia-coffee2 {
+    position: absolute;
+    width: 33px;
+    height: 88px;
+    left: 630px;
+    bottom: 150px;
+}
+
+#ethiopia-coffee3 {
+    position: absolute;
+    width: 33px;
+    height: 88px;
+    left: 699px;
+    bottom: 150px;
+}
+
+#ethiopia-tree1 {
+    position: absolute;
+    width: 176px;
+    height: 270px;
+    left: 51px;
+    bottom: 150px;
+}
+
+#ethiopia-tree2 {
+    position: absolute;
+    width: 151px;
+    height: 232px;
+    left: 255px;
+    bottom: 150px;
+}
+
+#ethiopia-tree3 {
+    position: absolute;
+    width: 192px;
+    height: 295px;
+    left: 1233px;
+    bottom: 150px;
+}
+
+#ethiopia-goat {
+    position: absolute;
+    width: 87px;
+    height: 67px;
+    left: 423px;
+    bottom: 150px;    
+}
+
+#ethiopia-hut {
+    position: absolute;
+    width: 320px;
+    height: 180px;
+    left: 971px;
+    bottom: 150px;
+}
+
+#ethiopia-person {
+    position: absolute;
+    width: 54px;
+    height: 95px;
+    left: 845px;
+    bottom: 150px;    
+}
+
+.foreground > .arabia {
+    position: absolute;
+    width: 1440px;
+    height: 100vh;
+    left: 1640px;
+    top: 0px;
+}
+
+#arabia-land {
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    left: 0px;
+    bottom: 0px;    
+}
+
+#arabia-house1 {
+    position: absolute;
+    width: 384px;
+    height: 261px;
+    left: 71px;
+    bottom: 150px;
+}
+
+#arabia-house2 {
+    position: absolute;
+    width: 374px;
+    height: 173px;
+    left: 547px;
+    bottom: 150px;
+}
+
+#arabia-house3 {
+    position: absolute;
+    width: 381px;
+    height: 231px;
+    left: 1005px;
+    bottom: 150px;
+}
+
+#arabia-house4 {
+    position: absolute;
+    width: 460px;
+    height: 390px;
+    left: 177px;
+    bottom: 150px;
+}
+
+#arabia-house5 {
+    position: absolute;
+    width: 528px;
+    height: 363px;
+    left: 775px;
+    bottom: 150px;
+}
+
+#arabia-person1 {
+    position: absolute;
+    width: 47px;
+    height: 94px;
+    left: 97px;
+    bottom: 150px;
+}
+
+#arabia-person2 {
+    position: absolute;
+    width: 46px;
+    height: 91px;
+    left: 145px;
+    bottom: 150px;
+}
+
+#arabia-person3 {
+    position: absolute;
+    width: 42.66px;
+    height: 94px;
+    left: 220px;
+    bottom: 150px;
+}
+
+#arabia-person4 {
+    position: absolute;
+    width: 49px;
+    height: 98px;
+    left: 263px;
+    bottom: 150px;
+}
+
+#arabia-person5 {
+    position: absolute;
+    width: 46px;
+    height: 91px;
+    left: 334px;
+    bottom: 150px;
+}
+
+#arabia-person6 {
+    position: absolute;
+    width: 47px;
+    height: 94px;
+    left: 385px;
+    bottom: 150px;
+}
+
+#arabia-person7 {
+    position: absolute;
+    width: 46px;
+    height: 91px;
+    left: 580px;
+    bottom: 150px;
+}
+
+#arabia-person8 {
+    position: absolute;
+    width: 47px;
+    height: 94px;
+    left: 655px;
+    bottom: 150px;
+}
+
+#arabia-person9 {
+    position: absolute;
+    width: 41px;
+    height: 91px;
+    left: 682px;
+    bottom: 150px;
+}
+
+#arabia-person10 {
+    position: absolute;
+    width: 46px;
+    height: 91px;
+    left: 750px;
+    bottom: 150px;
+}
+
+#arabia-person11 {
+    position: absolute;
+    width: 46px;
+    height: 91px;
+    left: 841px;
+    bottom: 150px;
+}
+
+#arabia-person12 {
+    position: absolute;
+    width: 47px;
+    height: 94px;
+    left: 1036px;
+    bottom: 150px;
+}
+
+#arabia-person13 {
+    position: absolute;
+    width: 46px;
+    height: 91px;
+    left: 1150px;
+    bottom: 150px;
+}
+
+#arabia-person14 {
+    position: absolute;
+    width: 47px;
+    height: 94px;
+    left: 1205px;
+    bottom: 150px;
+}
+
+#arabia-person15 {
+    position: absolute;
+    width: 42.66px;
+    height: 94px;
+    left: 1280px;
+    bottom: 150px;
+}
+
+#arabia-person16 {
+    position: absolute;
+    width: 46px;
+    height: 91px;
+    left: 1316px;
+    bottom: 150px;
+}
+
+.foreground > .europe {
+    position: absolute;
+    width: 1440px;
+    height: 100vh;
+    left: 3280px;
+    top: 0px;
+}
+
+#europe-land {
+    position: absolute;
+    width: 1154px;
+    height: 150px;
+    left: 0px;
+    bottom: 0px;
+}
+
+#europe-bridge {
+    position: absolute;
+    width: 1381px;
+    height: 150px;
+    left: 1499px;
+    bottom: 0px;
+}
+
+#europe-vatican {
+    position: absolute;
+    width: 523px;
+    height: 454px;
+    left: 84px;
+    bottom: 150px;
+}
+
+#europe-house1 {
+    position: absolute;
+    width: 542px;
+    height: 344px;
+    left: 1528px;
+    bottom: 150px;
+}
+
+#europe-house2 {
+    position: absolute;
+    width: 528px;
+    height: 263px;
+    left: 2094px;
+    bottom: 150px;
+}
+
+#europe-house3 {
+    position: absolute;
+    width: 217px;
+    height: 401px;
+    left: 2647px;
+    bottom: 150px;
+}
+
+.foreground > .america {
+    position: absolute;
+    width: 1440px;
+    height: 100vh;
+    left: 6360px;
+    top: 0px;
+}
+
+#america-land {
+    position: absolute;
+    width: 1115px;
+    height: 150px;
+    left: 1765px;
+    bottom: 0px;
+}
+
+#america-house {
+    position: absolute;
+    width: 583px;
+    height: 254px;
+    left: 2223px;
+    bottom: 150px;
+}
+
+#america-ship1 {
+    position: absolute;
+    width: 559px;
+    height: 241.62px;
+    left: 136px;
+    bottom: 138.38px;
+}
+
+#america-ship2 {
+    position: absolute;
+    width: 435px;
+    height: 294px;
+    left: 1222px;
+    bottom: 130px;
+}
+
+#america-person1{
+    position: absolute;
+    width: 70.28px;
+    height: 90.13px;
+    left: 1276px;
+    bottom: 257.87px;
+}
+#america-person2{
+    position: absolute;
+    width: 70.28px;
+    height: 90.13px;
+    left: 1408px;
+    bottom: 257.87px;
+}
+#america-person3{
+    position: absolute;
+    width: 70.28px;
+    height: 90.13px;
+    left: 1553px;
+    bottom: 257.87px;
+}
+
+.foreground > .conclusion {
+    position: absolute;
+    width: 1440px;
+    height: 100vh;
+    left: 9440px;
+    top: 0px;
+}
+
+#conclusion-globe {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: calc(50% - 450px/2);
+    top: calc(50% - 450px/2);
+}
+
+#bean {
+    position: fixed;
+    width: 109px;
+    height: 176px;
+    left: 70px;
+    top: 70px;    
+}
+
+.intro {
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+
+h1 {
+    display: block;
+    font-size: 60px;
+    margin-top: 1em;
+    margin-bottom: 0.67em;
+    margin-left: 2em;
+    margin-right: 0;
+    color: white; 
+    font-family: 'Paytone One', sans-serif;
+    text-shadow: 2px 2px #616060;
+}
+
+
+h2 {
+    display: block;
+    font-size: 20px;
+    margin-top: 0em;
+    margin-bottom: 0.67em;
+    margin-left: 20em;
+    margin-right: 20em;
+    color: white; 
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+    display: block;
+    font-size: 23px;
+    margin-top: 22em;
+    margin-bottom: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: white; 
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+}
+
+#bottom-leftEthiopia {
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+}
+
+#bottom-leftnewworld {
+    margin-left: 10em;
+    margin-right: 15em;
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+}
+
+.container {
+position: relative;
+text-align: center;
+}
+
+h4 {
+    display: block;
+    font-size: 20px;
+    margin-top: 5em;
+    margin-bottom: 0.67em;
+    margin-left: 32em;
+    margin-right: 15em;
+    color: white; 
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+}
+
+h6{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 5em;
+    margin-bottom: 0.67em;
+    position: absolute;
+    bottom: 25px;
+    left: 5px;
+    color: white; 
+    font-family: 'Paytone One', sans-serif;
+    text-shadow: 2px 2px #616060;
+    font-size: 30px;
+}
+
+h7{
+    display: block;
+    font-size: 25px;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+
+    color: white; 
+    font-family: 'Paytone One', sans-serif;
+    text-shadow: 2px 2px #616060;
+    font-size: 30px;
+}
